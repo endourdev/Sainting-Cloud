@@ -1,0 +1,29 @@
+{
+  "name": "sainting-cloud",
+  "version": "0.0.2",
+  "description": "Saiting Cloud est un bot multifonction proposant des commandes de modération et des commandes utiles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fofhgit/saiting-cloud.git"
+  },
+  "keywords": [
+    "Bot",
+    "Discord",
+    "Discord.js",
+    "DJS"
+  ],
+  "author": "Wodd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fofhgit/saiting-cloud/issues"
+  },
+  "homepage": "https://github.com/fofhgit/saiting-cloud#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
