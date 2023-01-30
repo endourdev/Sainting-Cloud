@@ -4,7 +4,8 @@
   "description": "Saiting Cloud est un bot multifonction proposant des commandes de modération et des commandes utiles.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "slash": "node index --slash"
   },
   "repository": {
     "type": "git",
