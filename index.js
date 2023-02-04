@@ -5,6 +5,7 @@ require('dotenv').config();
 
 const client = new Client({ intents: config.intents });
 
+client.config = config;
 client.commands = {};
 client.slashs = [];
 
