@@ -3,39 +3,49 @@ const { PermissionFlagsBits } = require('discord.js');
 module.exports = {
     run: ({ client, interaction }) => {
         const serverInfo = {
-            title: "Server Info's",
             author: { name: interaction.guild.name },
             thumbnail: { url: interaction.guild.iconURL({size: 2048, extension: "png"}) },
             fields: [
                 {
                     name: 'Propriétaire :',
-			        value: `<@${interaction.guild.ownerId}>`,
+			        value: `<:owner:1071506269858451597>  <@${interaction.guild.ownerId}>`,
                 },
                 {
                     name: "Création :",
-                    value: `<t:${Math.floor(interaction.guild.createdAt / 1000)}>` 
+                    value: `<:time:1071546174626070568> <t:${Math.floor(interaction.guild.createdAt / 1000)}>` 
                 },
                 {
                     name: "Description :",
-                    value: `${interaction.guild.description}`
+                    value: `<:channel:1071506415778287786> ${interaction.guild.description}`
+                },
+                {
+                    name: "Boosts :",
+                    value: `<a:boost:1071506445415239822> ${interaction.guild.premiumSubscriptionCount}`,
+                    inline: true
                 },
                 {
                     name: "Niveau :",
-                    value: `${interaction.guild.premiumTier}`,
+                    value: `<a:boost:1071506445415239822> ${interaction.guild.premiumTier}`,
+                    inline: true
+                },
+                {
+                    name: "Niveau de Vérification :",
+                    value: `<:mod:1071553136474476675> ${interaction.guild.verificationLevel}`,
+                    inline: true
                 },
                 {
                     name: "Membres :",
-                    value: interaction.guild.memberCount.toString(),
+                    value: `<:members:1071506360258277407> ${interaction.guild.memberCount.toString()}`,
                     inline: true,
                 },
                 {
                     name: "Rôles :",
-                    value: interaction.guild.roles.cache.size.toString(),
+                    value: `<:roles:1071506315177885846> ${interaction.guild.roles.cache.size.toString()}`,
                     inline: true,
                 },
                 {
                     name: "Salons :",
-                    value: interaction.guild.channels.cache.size.toString(),
+                    value: `<:channel:1071506415778287786> ${interaction.guild.channels.cache.size.toString()}`,
                     inline: true,
                 },
             ],

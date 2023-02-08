@@ -1,0 +1,3 @@
+@echo off
+Title Deploying Commands...
+npm run slash

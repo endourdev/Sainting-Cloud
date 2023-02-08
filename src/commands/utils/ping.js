@@ -20,7 +20,7 @@ module.exports = {
     help: {
         description: "Affiche la latence du bot !",
         memberPermissions: [
-            PermissionFlagsBits.Administrator
+            PermissionFlagsBits.EmbedLinks
         ],
         botPermissions: [
             PermissionFlagsBits.EmbedLinks,

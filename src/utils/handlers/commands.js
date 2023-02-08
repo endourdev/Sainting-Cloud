@@ -10,6 +10,7 @@ module.exports = client => {
             client.slashs.push({
                 name: commandName,
                 description: command.help.description,
+                options: command.help.options,
                 type: ApplicationCommandType.ChatInput,
                 defaultMemberPermissions: command.help.memberPermissions || null,
                 dmPermission: command.help.dmPermission || false
