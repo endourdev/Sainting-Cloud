@@ -41,7 +41,7 @@ module.exports = {
                 text: "Saiting Cloud"
             },
         };
-        interaction.reply({ embeds: [ban], ephemeral: true} );
+        interaction.reply({ embeds: [ban]} );
     },
     help: {
         description:  "Permet de bannir un utilisateur.",
