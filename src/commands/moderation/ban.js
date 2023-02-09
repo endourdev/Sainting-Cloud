@@ -34,7 +34,7 @@ module.exports = {
             fields: [
                 {
                     name: 'Membre :',
-			        value: `${interaction.user.tag}`,
+			        value: `${user.tag}`,
                 }
             ],
             footer: {

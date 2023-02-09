@@ -60,6 +60,9 @@ module.exports = {
         description: "Affiche des informations sur un serveur.",
         botPermissions: [
             PermissionFlagsBits.EmbedLinks
-        ]
+        ],
+        memberPermissions: [
+            PermissionFlagsBits.UseApplicationCommands
+        ],
     },
 };

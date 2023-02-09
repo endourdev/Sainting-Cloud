@@ -46,6 +46,9 @@ module.exports = {
         botPermissions: [
             PermissionFlagsBits.EmbedLinks
         ],
+        memberPermissions: [
+            PermissionFlagsBits.UseApplicationCommands
+        ],
         options: [{
             name: "membre",
             description: "Séléctionnez un membre pour avoir ses informations.",

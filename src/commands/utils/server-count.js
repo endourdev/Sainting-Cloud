@@ -22,6 +22,9 @@ module.exports = {
         description: "Affiche le nombres de serveurs utilisant le bot.",
         botPermissions: [
             PermissionFlagsBits.EmbedLinks
-        ]
+        ],
+        memberPermissions: [
+            PermissionFlagsBits.UseApplicationCommands
+        ],
     },
 };
