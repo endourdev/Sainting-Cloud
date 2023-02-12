@@ -57,7 +57,7 @@ module.exports = {
         interaction.reply({ embeds: [serverInfo] });
     },
     help: {
-        description: "Affiche des informations sur un serveur.",
+        description: "⭐ Affiche des informations sur un serveur.",
         botPermissions: [
             PermissionFlagsBits.EmbedLinks
         ],

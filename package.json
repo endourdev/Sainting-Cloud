@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/fofhgit/saiting-cloud#readme",
   "dependencies": {
+    "discord-giveaways": "^6.0.1",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
     "ms": "^2.1.3"

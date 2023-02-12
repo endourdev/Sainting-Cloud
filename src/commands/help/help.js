@@ -19,6 +19,10 @@ module.exports = {
                     value: `<:channel:1071506415778287786> Permet d'avoir les informations d'un serveur.`
                 },
                 {
+                    name: "Avatar :",
+                    value: `<:members:1071506360258277407> Permet de voir votre avatar.`
+                },
+                {
                     name: "Server-Count :",
                     value: `<:channel:1071506415778287786> Permet de voir le nombre de serveur utilisant le bot.`,
                     inline: true
@@ -42,7 +46,7 @@ module.exports = {
         interaction.reply({ embeds: [help] });
     },
     help: {
-        description: "Affiche la liste des commandes du bot.",
+        description: "❔ Affiche la liste des commandes du bot.",
         botPermissions: [
             PermissionFlagsBits.EmbedLinks
         ]

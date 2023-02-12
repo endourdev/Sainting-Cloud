@@ -19,7 +19,7 @@ module.exports = {
         interaction.reply({ embeds: [counter] });
     },
     help: {
-        description: "Affiche le nombres de serveurs utilisant le bot.",
+        description: "⭐ Affiche le nombres de serveurs utilisant le bot.",
         botPermissions: [
             PermissionFlagsBits.EmbedLinks
         ],

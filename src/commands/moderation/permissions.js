@@ -2,27 +2,26 @@ const { PermissionFlagsBits } = require('discord.js');
 
 module.exports = {
     run: ( { client, interaction} ) => {
-        const ping = {
+        const perms = {
             fields: [
                 {
-                    name: 'Latence',
-			        value: `Ma latence est de **${client.ws.ping}** ms.`,
+                    name: 'Membre :',
+			        value: `Les membres ont besoin de la permissions \`UseApplicationCommands\``,
                 }
             ],
             footer: {
                 text: "Saiting Cloud"
             },
         };
-        interaction.reply({ embeds: [ping]} )
+        interaction.reply({ embeds: [perms]} )
     },
     help: {
-        description: "⭐ Affiche la latence du bot.",
+        description: "⚒️ Affiche les pemissions nécessaires.",
         memberPermissions: [
-            PermissionFlagsBits.UseApplicationCommands
+            PermissionFlagsBits.Administrator
         ],
         botPermissions: [
-            PermissionFlagsBits.EmbedLinks,
-            PermissionFlagsBits.AddReactions
+            PermissionFlagsBits.Administrator
         ]
     }
 }

@@ -44,7 +44,7 @@ module.exports = {
         interaction.reply({ embeds: [ban]} );
     },
     help: {
-        description:  "Permet de bannir un utilisateur.",
+        description:  "⚒️ Permet de bannir un utilisateur.",
         memberPermissions: [
             PermissionFlagsBits.BanMembers
         ],

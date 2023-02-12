@@ -29,7 +29,7 @@ module.exports = {
         interaction.reply({ embeds: [kick]} );
     },
     help: {
-        description: "Permet d'exclure un membre.",
+        description: "⚒️ Permet d'exclure un membre.",
         botPermissions: [
             PermissionFlagsBits.KickMembers
         ],

@@ -42,7 +42,7 @@ module.exports = {
         interaction.reply({ embeds: [userInfo] });
     },
     help: {
-        description: "Affiche les informations d'un utilisateur.",
+        description: "⭐ Affiche les informations d'un utilisateur.",
         botPermissions: [
             PermissionFlagsBits.EmbedLinks
         ],
