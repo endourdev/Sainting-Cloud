@@ -1,16 +1,16 @@
 const config = require('../../config.json');
 
 module.exports = {
-    giveaway: (config.everyoneMention ? "@everyone\n\n" : "")+"🎉🎉 **GIVEAWAY** 🎉🎉",
-    giveawayEnded: (config.everyoneMention ? "@everyone\n\n" : "")+"🎉🎉 **GIVEAWAY ENDED** 🎉🎉",
+    giveaway: '🎉🎉 **GIVEAWAY DÉMARRÉE** 🎉🎉',
+    giveawayEnded: '🎉🎉 **GIVEAWAY TERMINÉ** 🎉🎉',
     title: '{this.prize}',
-    inviteToParticipate: 'Réagissez avec 🎉 pour participer',
-    winMessage: 'Bravo, {winners}! Tu as gagné **{this.prize}**!',
+    inviteToParticipate: 'Réagis avec 🎉 pour participer.',
+    winMessage: 'Bravo, {winners}! Tu as gagné **{this.prize}**!\n{this.messageURL}',
     drawing: 'Temps Restant : {timestamp}',
-    dropMessage: 'Soyez le premier à réagir avec 🎉',
+    dropMessage: 'Soyez le premier à réagir avec 🎉 !',
     embedFooter: '{this.winnerCount} gagnant(s)',
-    noWinner: 'Pas de gagnant',
+    noWinner: 'Giveaway annulé, pas de participants valides.',
     winners: 'Gagnant(s) :',
-    endedAt: 'Fini le :',
+    endedAt: 'Fini le',
     hostedBy: 'Héberger par : {this.hostedBy}'
 };

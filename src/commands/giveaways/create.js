@@ -12,7 +12,7 @@ module.exports = {
         
         if(!giveawayChannel.isTextBased()) {
             return interaction.reply({
-                content: ':x: Sélectionnez un bon salon.',
+                content: ':x: Sélectionnez salon valide.',
                 ephemeral: true
             });
         }

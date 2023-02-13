@@ -24,7 +24,7 @@ module.exports = {
 
         client.giveawaysManager.reroll(giveaway.messageId)
         .then(() => {
-            interaction.reply({content: "Giveaway rerolled", ephemeral: true});
+            interaction.reply({content: "Giveaway Rerolled", ephemeral: true});
         })
         .catch((e) => {
             interaction.reply({
