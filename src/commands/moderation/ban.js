@@ -30,11 +30,10 @@ module.exports = {
         interaction.guild.members.ban(user.id, { reason: `${reason || "Aucune raison fournie"} (${interaction.user.tag})`, historySeconds: history ? historySeconds[history] : null});
 
         const ban = {
-            description: "Membre banni",
             fields: [
                 {
-                    name: 'Membre :',
-			        value: `${user.tag}`,
+                    name: 'Membre banni :',
+			        value: `<:member:1075129153143185459> ${user.tag}`,
                 }
             ],
             footer: {

@@ -15,11 +15,10 @@ module.exports = {
         member.kick(`${reason || "Aucune raison fournie."} (${interaction.user.tag})`);
 
         const kick = {
-            description: "Membre expulsé",
             fields: [
                 {
                     name: 'Membre :',
-			        value: `${member.user.tag}`,
+			        value: `<:member:1075129153143185459> s${member.user.tag}`,
                 }
             ],
             footer: {

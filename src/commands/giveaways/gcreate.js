@@ -12,7 +12,7 @@ module.exports = {
         
         if(!giveawayChannel.isTextBased()) {
             return interaction.reply({
-                content: ':x: Sélectionnez salon valide.',
+                content: ':x: Sélectionnez un salon valide.',
                 ephemeral: true
             });
         }
@@ -29,7 +29,7 @@ module.exports = {
     
     },
     help: {
-        description: 'Démarrez un giveaway',
+        description: '🎉 Démarrez un giveaway',
         memberPermissions: [
             PermissionFlagsBits.ManageMessages
         ],

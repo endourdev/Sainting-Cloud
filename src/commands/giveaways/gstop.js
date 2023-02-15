@@ -43,7 +43,7 @@ module.exports = {
 
     },
     help: {
-        description: 'End a giveaway',
+        description: '🎉 Terminer un giveaway',
 
     options: [
         {

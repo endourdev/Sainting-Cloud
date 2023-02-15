@@ -6,7 +6,7 @@ module.exports = {
             fields: [
                 {
                     name: 'Membre :',
-			        value: `Les membres ont besoin de la permissions \`UseApplicationCommands\``,
+			        value: `⚒️ Les membres ont besoin de la permissions \`UseApplicationCommands\``,
                 }
             ],
             footer: {

@@ -9,27 +9,27 @@ module.exports = {
             fields: [
                 {
                     name: 'Membre :',
-			        value: `<:members:1071506360258277407> ${member.toString()}`,
+			        value: `<:member:1075129153143185459> ${member.toString()}`,
                     inline: true
                 },
                 {
                     name: "Id du membre :",
-                    value: `<:members:1071506360258277407> ${member.id.toString()}`,
+                    value: `<:member:1075129153143185459> ${member.id.toString()}`,
                     inline: true
                 },
                 {
-                    name: "Boosts :",
-                    value: member.premiumSinceTimestamp ? `<a:boost:1071506445415239822> <t:${(Math.floor(member.premiumSinceTimestamp / 1000))}:R>` : `<a:boost:1071506445415239822> Aucun boost`,
+                    name: "Boosts depuis :",
+                    value: member.premiumSinceTimestamp ? `<:woboost:1075132024970559509> <t:${(Math.floor(member.premiumSinceTimestamp / 1000))}:R>` : `<a:boost:1071506445415239822> Aucun boost`,
                     inline: false
                 },
                 {
                     name: "Création :",
-                    value: `<:time:1071546174626070568> <t:${Math.floor(member.user.createdAt / 1000)}:R>`,
+                    value: `<:time:1075129168481763338> <t:${Math.floor(member.user.createdAt / 1000)}:R>`,
                     inline: true
                 },
                 {
                     name: "À rejoint :",
-                    value: `<:time:1071546174626070568> <t:${Math.floor(member.joinedAt / 1000)}:R>`,
+                    value: `<:time:1075129168481763338> <t:${Math.floor(member.joinedAt / 1000)}:R>`,
                     inline: true
                 },
             ],

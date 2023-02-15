@@ -8,33 +8,44 @@ module.exports = {
             fields: [
                 {
                     name: 'Ban :',
-			        value: `<:ban:1072955401206759465> Permet de bannir un utilisateur.`,
+			        value: `<:moderator:1075129156146315354> Permet de bannir un utilisateur.`,
                 },
                 {
                     name: "Kick :",
-                    value: `<:mod:1071553136474476675> Permet d'expulser une personne.` 
+                    value: `<:moderator:1075129156146315354> Permet d'expulser une personne.` 
                 },
                 {
                     name: "Server-Info :",
-                    value: `<:channel:1071506415778287786> Permet d'avoir les informations d'un serveur.`
-                },
-                {
-                    name: "Avatar :",
-                    value: `<:members:1071506360258277407> Permet de voir votre avatar.`
+                    value: `<:channels:1075129148395237406> Permet d'avoir les informations d'un serveur.`
                 },
                 {
                     name: "Server-Count :",
-                    value: `<:channel:1071506415778287786> Permet de voir le nombre de serveur utilisant le bot.`,
+                    value: `<:channels:1075129148395237406> Permet de voir le nombre de serveur utilisant le bot.`,
                     inline: true
                 },
                 {
                     name: "User-Info :",
-                    value: `<:members:1071506360258277407> Permet de voir les informations d'un utilisateur.`,
+                    value: `<:member:1075129153143185459> Permet de voir les informations d'un utilisateur.`,
                     inline: true
                 },
                 {
                     name: "Ping :",
-                    value: `<a:online:1071454309402804334> Permet de voir la latence du bot.`,
+                    value: `<:online:1075129159845687376> Permet de voir la latence du bot.`,
+                    inline: true
+                },
+                {
+                    name: "Create :",
+                    value: `<:gw:1075129150945361953> Permet de créer un giveaway.`,
+                    inline: true
+                },
+                {
+                    name: "Reroll :",
+                    value: `<:gw:1075129150945361953> Permet de reroll un giveaway.`,
+                    inline: true
+                },
+                {
+                    name: "Stop :",
+                    value: `<:gw:1075129150945361953> Permet d'arrêter un giveaway.`,
                     inline: true
                 },
             ],

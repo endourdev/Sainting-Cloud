@@ -35,7 +35,7 @@ module.exports = {
 
     },
     help: {
-        description: 'Reroll un giveaway',
+        description: '🎉 Reroll un giveaway',
 
     options: [
         {

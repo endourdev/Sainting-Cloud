@@ -20,6 +20,14 @@ const manager = new GiveawaysManager(client, {
     }
 });
 
+client.on("guildCreate", () => {
+    client.user.setActivity(`${client.guilds.cache.size} serveurs `, { type: ActivityType.Streaming, url: "https://twitch.tv/bras_ace" });
+});
+
+client.on("guildDelete", () => {
+    client.user.setActivity(`${client.guilds.cache.size} serveurs `, { type: ActivityType.Streaming, url: "https://twitch.tv/bras_ace" });
+});
+
 client.giveawaysManager = manager;
 
 readdirSync("./src/utils/handlers").forEach(handler => require(`./src/utils/handlers/${handler}`)(client))

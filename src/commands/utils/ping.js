@@ -6,7 +6,7 @@ module.exports = {
             fields: [
                 {
                     name: 'Latence',
-			        value: `Ma latence est de **${client.ws.ping}** ms.`,
+			        value: `<:online:1075129159845687376> Ma latence est de **${client.ws.ping}** ms.`,
                 }
             ],
             footer: {
