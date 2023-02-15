@@ -2,7 +2,7 @@
 <h2>Start with Discord.Js</h2>
 
 
-## A simple bot by Wodd ( developed by squarfiuz )
+## A simple bot by Wodd
 ### Build with discord.js
 
 Install dependancies with :
@@ -35,7 +35,7 @@ discord.js
 
 <h2>Démarrez avec Discord.Js</h2>
 
-## Un bot simple par Wodd ( développé en partie par squarfiuz )
+## Un bot simple par Wodd
 ### Développez avec discord.js
 
 Installez les dépendances avec :
